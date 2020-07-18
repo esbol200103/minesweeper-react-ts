@@ -1,0 +1,48 @@
+@import '../../styles/index.scss';
+
+.button {
+  @include buttons;
+  @include borders(#fff, #7b7b7b);
+  width: 30px;
+  height: 30px;
+  &.visible {
+     border-color: #7b7b7b;
+     border-width: 1px;
+  }
+}
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell__number {
+  font-size: 16px;
+  font-weight: bold;
+}
+.value-1 {
+  color: #0000fd;
+}
+.value-2 {
+  color: #028001;
+}
+.value-3 {
+  color: #ff0000;
+}
+.value-4 {
+  color: #020082;
+}
+.value-5 {
+  color: #810201;
+}
+.value-6 {
+  color: #027f80;
+}
+.value-7 {
+  color: #000000;
+}
+.value-8 {
+  color: #808080;
+}
+.red {
+  background-color: #ff0000;
+}
